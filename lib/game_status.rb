@@ -24,6 +24,7 @@ end
 def full?(board)
   if board.include?(" ")
     return false
+  end 
 end
 
 # Define your WIN_COMBINATIONS constant
