@@ -29,6 +29,15 @@ def full?(board)
   end
 end
 
+def draw?(board)
+  if full?(board) == true
+    true
+  elsif won?(board) == true
+    false
+  else
+    false
+end
+
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
   [0,1,2], # Top row
