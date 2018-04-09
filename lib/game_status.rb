@@ -22,9 +22,9 @@ def won?(board)
 end
 
 def full?(board)
-  if board.include?(" ")
+  if board.include?(" " || WIN_COMBINATIONS)
     return false
-  end 
+  end
 end
 
 # Define your WIN_COMBINATIONS constant
