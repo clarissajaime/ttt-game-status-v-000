@@ -22,7 +22,8 @@ def won?(board)
 end
 
 def full?(board)
-  board.any? {|el| el == " "}
+  if board.include?(" ")
+    return false
 end
 
 # Define your WIN_COMBINATIONS constant
