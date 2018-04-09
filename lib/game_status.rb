@@ -36,6 +36,7 @@ def draw?(board)
     false
   else
     false
+  end 
 end
 
 # Define your WIN_COMBINATIONS constant
